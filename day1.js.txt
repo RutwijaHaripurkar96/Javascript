@@ -1,0 +1,115 @@
+<script>
+// Edit your script here
+function Ticket() 
+{
+var TicketType = " Special Entry Darshan"
+var Date = " Dec 1st"
+var Day = " Tuesday"
+var Time = " 3:30 Am"
+var PerSlotTicket = " 2000"
+var BookingNo = " ISI51110080016"
+var NameofPilgrim = " Venkatesh"
+var OrderNo =  010600013554
+var Email = " venkateshprofessional17@gmail.com"
+var AmountinFigures =  220.00
+var ProofofId = " Aadhar Card 733498928758"
+var BookedDateandTime = " 11062015 11:36:46"
+var NoOfPersons =  1
+var NameoftheSeva = " Archana"
+var ReportingTime = " 4:00 AM"
+var PerformanceDateandTime = " 12012015 AM 4:30:00"
+var PrivilegetotheSeva = " Two small laddus"
+var BookedTime = " 11:36:46"
+var AccomodationType = " Rs 500 Tirumala"
+var Available =  350
+var NoofTickets =  1
+var Rate = " 50 to 2000"
+document.writeln(TicketType, Date, Day, Time, PerSlotTicket, BookingNo, NameofPilgrim, OrderNo, Email, AmountinFigures, ProofofId, BookedDateandTime, NoOfPersons, NameoftheSeva, ReportingTime, PerformanceDateandTime, PrivilegetotheSeva, BookedTime, AccomodationType, Available, NoofTickets, Rate)
+}
+Ticket()
+Ticket = [" Special Entry Darshan", " Dec 1st", " Tuesday", " 3:30 Am", " 2000", " ISI51110080016", " venkatesh", " 01600013554"]
+
+function Account()
+{
+SelectAccount = "1-121-008-54"
+Billingdate = "20/06/2012"
+SubDivision = 1
+RRNo = 12100854
+Name = "XXXXX"
+Address = "Vidyaranyapura"
+Reading = 42260
+DueDate = "21/06/2012"
+unitsconsumed = 1310
+BillAmount = 6498
+paymentDate = "30/06/2012"
+Paidammount = 6498
+document.writeln(SelectAccount,Billingdate,SubDivision,RRNo,Name,Address,Reading,DueDate,unitsconsumed,BillAmount,paymentDate,Paidammount)
+}
+Account()
+
+function Laptop() 
+{
+model = "LGp430"
+os = "Windows 7 home base, Premium or professional"
+Processor = "Second Generation Intel Core i3,i5 or i7 processor"
+RAM = "upto 8GB"
+Screen = "14.0 inch HD-LCD -backlit"
+Resolution = "1366*768"
+Weight = "4.28 pound"
+Storage = "320GB"
+Graphics = "Intel HD Graphics"
+Networking = "802.11 b/g/n,bluetooth 3.0"
+Batterylife = "6-cell Battery"
+Cost = "50,000"
+document.writeln(model,os,Processor,RAM,Screen,Resolution,Weight,Storage,Graphics,Networking,Batterylife,Cost)
+}
+Laptop()
+
+function software()
+{
+OS = "iOS 9, upgradable to iOS 9.2"
+Chipset = "Apple A9"
+CPU = "Dual-core 1.84 GHz Twister"
+GPU = "PowerVR GT7600 (six-core graphics)"
+Model = "iphone"
+Manufactuer = "Apple"
+Os  = "ios 4.0"
+Processor = "1 GHZ"
+RAMMemory = "512Mb"
+Keyboard = "Software"
+onboardstorage = "16GB/32Gb"
+Flash = "LED"
+VideoCallcamera = "VGA"
+VideoRecording = "720 F"
+NoiceCancelling = "2 microphones"
+Expandablestorage = "No"
+document.writeln(OS ,Chipset,CPU,GPU,Model,Manufactuer,Processor,RAMMemory,Keyboard,onboardstorage,this.Flash,VideoCallcamera,NoiceCancelling,Expandablestorage)
+}
+
+function Information(Name, Age, Gender, EmailAddress, PhotoIDCard, IDCardNo) {
+var NameofPerson = " Mr.Venkatesh"
+var Ageofperson = " 25"
+var Genderofperson = " Male"
+var EmailAdd = " venkatesh.db@gmail.com"
+var Address = " BEML Main Road"
+var City = " Banglore"
+var State = " Karnataka"
+var Pincode =  560075
+var Country = " India"
+var MobNo = " 09900367097"
+var PhotoId = " Pasport"
+var PhotoIDNo = " G389975"
+document.writeln(Name, Age, Gender, EmailAddress, PhotoIDCard, IDCardNo, NameofPerson, Ageofperson, Genderofperson, EmailAdd, Address, City, State, Pincode, Country, MobNo, PhotoId, PhotoIDNo)
+}
+Information(" JVT",  5, " Male", " info@jvtechnologies.co.in", " Voter id or ration card", " ASUPB590F")
+
+function AppearanceInfo(Weight, Height, EyeColour, Gender, HomeAddress, Homephone, Mobile) {
+var State = " Andhrapradesh"
+var Country = " India"
+document.writeln(Weight, Height, EyeColour, Gender, HomeAddress, Homephone, Mobile, State, Country)
+}
+AppearanceInfo(55, 5.8, " brown", " Male", " #6/96,rajampet,kadapa", 975545445, 8553577745)
+
+
+</script>
+<!-- edit your html here -->

@@ -1,0 +1,420 @@
+<script>
+// Edit your script here
+function Perfume() 
+{
+Brand = "Concept"
+ProductCode = "AUTCOMBO-OF- CONVIVA67682242A608C"
+ProductWeight = "150gm"
+InTheBox = "Pack Of 2 Perfumes"
+Quantity = "70 ml each"
+EffectivePrice = "Rs 194 after cashback"
+}
+Perfume()
+function Watch( ItemCode,Price, Type, Case, Dial, Strap, ClassType, Occasion){
+Movement = "PC21 Movement"
+Others = "One Year Warranty"
+//document.writeln(ItemCode,Price, Type, Case, Dial, Strap, ClassType, Occasion,Movement,Others)
+}
+Watch(131843, "Rs 349", "Analog Watch", "Fibre Case with Steel Back", "Round Dial", "Fibre", "Buckle", "Casual")
+function Computer(NameofDrive, Type, Totalsize, Freesize)
+{
+this.NameofDrive = NameofDrive
+this.Type = Type
+this.Totalsize =  Totalsize
+this.Freesize = Freesize
+document.writeln(this.NameofDrive,this.Type,this. Totalsize,this.Freesize)
+return 0
+}
+new Computer("C","Local Disk","97.5 GB", "59.2 GB")
+function netusage(TotalMBdownloaded, MobiledownloadSpeed, MobileuploadSpeed)
+{
+if(TotalMBdownloaded >= 100)
+{
+return "Usage is completed"
+}
+else
+{
+document.writeln(TotalMBdownloaded, MobiledownloadSpeed, MobileuploadSpeed)
+}
+}
+var result = netusage(500, "30.05 mbps","32.06 mbps")
+document.write(result)
+
+class Details{
+static Mobile = "Samsung Galaxy J6"
+constructor() {
+this.Brand = "Concept"
+this.ProductCode = "AUTCOMBO-OF- CONVIVA67682242A608C"
+this.ProductWeight = "150gm"
+this.InTheBox = "Pack Of 2 Perfumes"
+this.Quantity = "70 ml each"
+this.EffectivePrice = "Rs 194 after cashback"
+}
+Watch(ItemCode,Price, Type, Case, Dial, Strap, ClassType, Occasion) 
+{
+this.ItemCode = ItemCode
+this.Price = Price
+this.Type = Type
+this.Case = Case
+this.Dial = Dial
+this.Strap = Strap
+this.ClassType = ClassType
+this.Occasion = Occasion
+this.Movement = Movement
+this.Others = Others
+}
+
+CarDetails(CITY, FUELTYPE, KMSDriven, COLOUR, NUMBEROFOWNERS, POWERSTEERING, INSURANCETYPE, INSURANCEEXPIRY, MANUFACTURINGYEAR, DATEOFREGISTRATION, REGISTRATIONTYPE, RTOLOCATION){
+this.CITY = CITY
+this.FUELTYPE = FUELTYPE
+this.KMSDriven = KMSDriven
+this.COLOUR = COLOUR
+this.NUMBEROFOWNERS = NUMBEROFOWNERS
+this.POWERSTEERING = POWERSTEERING
+this.INSURANCETYPE = INSURANCETYPE
+this.INSURANCEEXPIRY = INSURANCEEXPIRY
+this.MANUFACTURINGYEAR = MANUFACTURINGYEAR
+this. DATEOFREGISTRATION =  DATEOFREGISTRATION
+this.REGISTRATIONTYPE = REGISTRATIONTYPE
+this.RTOLOCATION = RTOLOCATION
+}
+static Cellphn()
+{
+document.writeln(Details.Mobile)
+}
+Comp(OSName, OSVersion)
+{
+this.OSName = OSName
+this.OSVersion = OSVersion
+}
+
+License(Lastname,Firstname,Middlename,Driverslicensenumber,Driverslicensestate,Driverslicensecountry,Civiliantype,Employeetype,Dateofbirth,Cityofbirth)
+{
+this.Lastname = Lastname
+this.Firstname = Firstname
+this.Middlename = Middlename
+this.Driverslicensenumber = Driverslicensenumber
+this.Driverslicensestate = Driverslicensestate
+this.Driverslicensecountry = Driverslicensecountry
+this.Civiliantype = Civiliantype
+this.Employeetype = Employeetype
+this.Dateofbirth = Dateofbirth
+this.Cityofbirth = Cityofbirth
+}
+Computerfeatures(OS,Chipset,CPU,GPU,Model,Manufactuer,Processor,RAMMemory,Keyboard,onboardstorage,Flash,VideoCallcamera,VideoRecording,NoiceCancelling,Expandablestorage)
+{
+this.OS = OS
+this.Chipset = Chipset
+this.CPU = CPU
+this.GPU = GPU
+this.Model = Model
+this.Manufactuer = Manufactuer
+this.Processor = Processor
+this.RAMMemory = RAMMemory
+this.Keyboard = Keyboard
+this.onboardstorage = onboardstorage
+this.Flash = Flash
+this.VideoCallcamera = VideoCallcamera
+this.VideoRecording = VideoRecording
+this.NoiceCancelling = NoiceCancelling
+this.Expandablestorage = Expandablestorage
+}
+
+Biodata(Name,Dob,TimeOfBirth,PlaceOfBirth,Nativity,MartialStatus,Religion,Community,Caste,SubSect,MotherTongue,Gothram,Star,Height,Complexion,Qualification,University,BloodGroup)
+{
+this. Name = Name
+this.Dob = Dob
+this.TimeOfBirth = TimeOfBirth 
+this.PlaceOfBirth = PlaceOfBirth
+this.Nativity = Nativity
+this.MartialStatus = MartialStatus
+this.Religion = Religion
+this.Community = Community
+this.Caste = Caste
+this.SubSect = SubSect
+this.MotherTongue = MotherTongue
+this.Gothram = Gothram
+this.Star = Star
+this.Height = Height
+this.Complexion =  Complexion 
+this.Qualification = Qualification
+this.University = University
+this.BloodGroup = BloodGroup
+if(Height < 5.1)
+{
+return "<br>Height is short"
+}
+else
+{
+return "<br>Proper Height"
+}
+}
+
+CarInsurance(Name,Address,Contactdetails,EmailId,PolicyCertificateNumber,ProposalCovernoteNumber,Periodofinsuurance,BuisnessOccupation)
+{
+this.Name = Name 
+this.Address = Address
+this.Contactdetails = Contactdetails
+this.EmailId = EmailId
+this.PolicyCertificateNumber = PolicyCertificateNumber 
+this.ProposalCovernoteNumber = ProposalCovernoteNumber 
+this.Periodofinsuurance = Periodofinsuurance 
+this.BuisnessOccupation = BuisnessOccupation
+}
+
+Particular_of_vehicle_insured(RegistrationNumberandplace, MakeorModel, EngineorChassisNoVehicle, Typeofbody, Cubiccapacity,YearofMFG,SeatingCapacityofsidecarincludingdriver,NetpremiumRs,IDVRS)
+{
+this.RegistrationNumberandplace = RegistrationNumberandplace
+this.MakeorModel =  MakeorModel
+this.EngineorChassisNoVehicle = EngineorChassisNoVehicle
+this.Typeofbody = Typeofbody
+this.Cubiccapacity = Cubiccapacity
+this.YearofMFG = YearofMFG
+this.SeatingCapacityofsidecarincludingdriver = SeatingCapacityofsidecarincludingdriver
+this.NetpremiumRs = NetpremiumRs
+this.IDVRS = IDVRS
+}
+
+Account_Details(AccountName, Address,Date,AccountNumber,AccountDescription,Branch,DrawingPower,InterestRatepa,MODBalance,CIFNo,IFSCode,MICRCode,NominationRegistered)
+{
+this.AccountName = AccountName
+this.Address = Address
+this.Date = Date
+this.AccountNumber = AccountNumber
+this.AccountDescription = AccountDescription
+this.Branch = Branch
+this.DrawingPower = DrawingPower
+this.InterestRatepa = InterestRatepa 
+this.MODBalance = MODBalance 
+this.CIFNo = CIFNo
+this.IFSCode = IFSCode
+this.MICRCode = MICRCode
+this.NominationRegistered = NominationRegistered
+}
+
+EMICalculator(HOMELOANAmount,InterestRate1,LoanTenure1,LoanEMI1,TotalInterestPayable1,TotalPaymentPrincipalplusInteresthome,PersonalLoanAmount2,InterestRate2,LoanTenure2,LoanEMI2,TotalInterestPayable2,TotalPaymentPrincipalplusInterestpersonal)
+{
+this.HOMELOANAmount = HOMELOANAmount
+this.InterestRate1 = InterestRate1
+this.LoanTenure1 = LoanTenure1
+this.LoanEMI1 = LoanEMI1
+this.TotalInterestPayable1 = TotalInterestPayable1
+this.TotalPaymentPrincipalplusInteresthome = TotalPaymentPrincipalplusInteresthome
+this.PersonalLoanAmount2 = PersonalLoanAmount2
+this.InterestRate2 = InterestRate2
+this.LoanTenure2 = LoanTenure2
+this.LoanEMI2 = LoanEMI2
+this.TotalInterestPayable2 = TotalInterestPayable2
+this.TotalPaymentPrincipalplusInterestpersonal = TotalPaymentPrincipalplusInterestpersonal
+}
+ 
+display()
+{
+document.writeln(this.Brand, this.ProductCode, this.ProductWeight, this.InTheBox,this.Quantity,this.EffectivePrice)
+document.writeln(this.ItemCode,this.Price,this.Type,this.Case,this.Dial,this.Strap,this.ClassType,this.Occasion,this.Movement,this.Others)
+document.writeln(this.CITY,this.FUELTYPE,this.KMSDriven,this.COLOUR,this.NUMBEROFOWNERS,this.POWERSTEERING,this.INSURANCETYPE,this.INSURANCEEXPIRY,this.MANUFACTURINGYEAR,this. DATEOFREGISTRATION,this.REGISTRATIONTYPE,this.RTOLOCATION)
+document.writeln(this.OSName,this.OSVersion)
+document.writeln(this.Lastname,this.Firstname,this.Middlename,this.Driverslicensenumber,this.Driverslicensestate,this.Driverslicensecountry,this.Civiliantype,this.Employeetype,this.Dateofbirth,this.Cityofbirth)
+document.writeln(this.OS ,this.Chipset,this.CPU,this.GPU,this.Model,this.Manufactuer,this.Processor,this.RAMMemory,this.Keyboard,this.onboardstorage,this.Flash,this.VideoCallcamera,this.NoiceCancelling,this.Expandablestorage)
+document.writeln(this.Name,this.Dob,this.TimeOfBirth,this.PlaceOfBirth,this.Nativity,this.MartialStatus,this.Religion,this.Community,this.Caste,this.SubSect,this.MotherTongue,this.Gothram,this.Star,this.Height,this.Complexion ,this.Qualification,this.University,this.BloodGroup)
+document.writeln(this.Name,this.Address,this.Contactdetails,this.EmailId,this.PolicyCertificateNumber,this.ProposalCovernoteNumber,this.Periodofinsuurance,this.BuisnessOccupation)
+document.writeln(this.RegistrationNumberandplace, this.MakeorModel, this.EngineorChassisNoVehicle, this.Typeofbody, this.Cubiccapacity,this.YearofMFG,this.SeatingCapacityofsidecarincludingdriver,this.NetpremiumRs,this.IDVRS)
+document.writeln(this.AccountName, this.Address,this.Date,this.AccountNumber,this.AccountDescription,this.Branch,this.DrawingPower,this.InterestRatepa,this.MODBalance,this.CIFNo,this.IFSCode,this.MICRCode,this.NominationRegistered)
+document.writeln(this.HOMELOANAmount,this.InterestRate1,this.LoanTenure1,this.LoanEMI1,this.TotalInterestPayable1,this.TotalPaymentPrincipalplusInteresthome,this.PersonalLoanAmount2,this.InterestRate2,this.LoanTenure2 ,this.LoanEMI2,this.TotalInterestPayable2,this.TotalPaymentPrincipalplusInterestpersonal)
+}
+}
+
+let Information = new Details()
+Information.Watch(131843, "Rs 349", "Analog Watch", "Fibre Case with Steel Back", "Round Dial", "Fibre", "Buckle", "Casual","PC21 Movement","One Year Warranty")
+Information.CarDetails("Kolkata", "Petrol", "29,479 KM", "Brown", 1, "Yes", "Expired", "N/A", 2012 ,"25-May-2012", "Individual", "beltala")
+Information.Comp("Windows or Linux", "2.6")
+Information.License("kumar", "Pavan", "Bijjavaram", "ka50201500006939", "karnataka", "india", "around india", "software engineer", "12-07-1992", "rajampet")
+Information.Computerfeatures("iOS 9, upgradable to iOS 9.2", "Apple A9", "Dual-core 1.84 GHz Twister", "PowerVR GT7600 (six-core graphics)", "iphone", "Apple", "1 GHZ", "512Mb", "Software", "16GB/32Gb", "LED", "VGA", "720 F", "2 microphones", "No")
+Information.Biodata("Naga Lalitha Kumari Bezawada","18-02-1989","7.30-8PM","Samalkota","Rajahmundry","UnMarried","Hindu","Telugu","Balija","Krishna Balija","Telugu","Mathala","Pushyami 3,4P",5.1,"Medium","B.Tech(CS)","KIET,Kakinada","B+ve")
+Information.CarInsurance("Rushikesh Patil","HSR layout banglore", "rushikesh@12gmail.com","from 00:00 Hrs on 14/07/2011 to 13/07/2012 on 23:59","Software Engineer")
+Information.Particular_of_vehicle_insured("TN07BH5551ChennaiSouth(Thiruvanmiyur)" , "FIAT LINEA/EMOTION PK 1.3MJD", "0083414 MCA11071B090107869EN", "Car", 1248, 2010, 5,"11,065.38",640000)
+Information.Account_Details("Mr. VENKATESH DUSETTI BABU" ,"NO 233, GROUND FLOOR, 5TH MAIN 1ST FLOOR, NEW THIPPASANDRA BANGALORE-560075 Bangalore", "24 Dec 2015" ,00000000167856041 ,"SBCHQ-GEN-PUB-IND-NONRURAL-INR","NEW TIPPASANDRA, BANGALORE","0.00","4.0","0.00",86617689795,"SBIN0015645" ,560002189,"Yes")
+Information.EMICalculator(5000000 ,"10.5","20 Yr or Months",49919,6980559,11980559,350000,"17.5","3 YR",12566,102366,452366)
+Information.display()
+Details.Cellphn()
+
+let faredetails = ["323 KM", "Rs. 420.00", "Rs. 22.90", "Rs. 442.90 *"]
+document.writeln(faredetails)
+
+class Electricbill {
+constructor()
+{
+this.SelectAccount = "1-121-008-54"
+this.Billingdate = "20/06/2012"
+this.SubDivision = 1
+this.RRNo = 12100854
+this.Name = "XXXXX"
+this.Address = "Vidyaranyapura"
+this.Reading = 42260
+this.DueDate = "21/06/2012"
+this.unitsconsumed = 1310
+this.BillAmount = 6498
+this.paymentDate = "30/06/2012"
+this.Paidammount = 6498
+}
+Electricity(website,tnebusername,password,consumernumber,Billingstatus,modeofpayment,choosebank,username,Transactionno, paymentstatus)
+{
+this.website = website
+this.tnebusername = tnebusername
+this.password = password
+this.consumernumber = consumernumber
+this.Billingstatus = Billingstatus
+this.modeofpayment = modeofpayment
+this.choosebank = choosebank
+this.username = username
+this.Transactionno = Transactionno
+this.paymentstatus = paymentstatus
+//document.write(this.website, this.tnebusername,this.password,this.consumernumber,this.Billingstatus,this.modeofpayment,this.choosebank,this.username,this.Transactionno,this.paymentstatus)
+}
+set (RegistrationNumber, OwnerName,SWDo,PermanentAddress,TemporaryAddress,Dealer,ClassisNo,EngineNo,makersName,NoofCylinder,WeightKG,wheelBase,SeatingCapacity,Fuel,Cubiccylinder)
+{
+this.RegistrationNumber = RegistrationNumber
+this.OwnerName = OwnerName
+this.SWDo = SWDo
+this.PermanentAddress = PermanentAddress
+this.TemporaryAddress = TemporaryAddress
+this.Dealer = Dealer
+this.ClassisNo =ClassisNo
+this.EngineNo = EngineNo
+this.makersName = makersName
+this.NoofCylinder = NoofCylinder
+this.WeightKG = WeightKG
+this.wheelBase = wheelBase
+this.SeatingCapacity = SeatingCapacity
+this.Fuel = Fuel
+this.Cubiccylinder = Cubiccylinder
+document.writeln(this.RegistrationNumber, this.OwnerName, this.SWDo, this.PermanentAddress, this.TemporaryAddress, this.Dealer, this.ClassisNo, this.EngineNo, this.makersName, this.NoofCylinder, this.WeightKG,this.wheelBase,this.SeatingCapacity,this.Fuel,this.Cubiccylinder)
+}
+
+//VehicleReg = new Electricbill()
+//VehicleReg.set("TN 22 CY 2917", "Sachin", "Sirinivasan", "xxxxxx", "gggggg", "Murugan Vehicles& Services Limited", 5793603,"0G3N72505757", "LMV (CAR)", "Maruthi SuzUKI India LTD",3, 740,2360,5,"Petrol",796)
+
+display()
+{
+document.writeln(this.SelectAccount,this.Billingdate,this.SubDivision,this.RRNo,this.Name,this.Address,this.Reading,this.DueDate,this.unitsconsumed,this.BillAmount,this.paymentDate,this.Paidammount)
+document.write(this.website, this.tnebusername,this.password,this.consumernumber,this.Billingstatus,this.modeofpayment,this.choosebank,this.username,this.Transactionno,this.paymentstatus)
+}
+}
+let ElecBill = new Electricbill()
+ElecBill.Electricity("www.tnebnet.org", "agilan", 1234567, 23456123, "paid/unpaid", "netbanking", "sbi", "kumar007", "18cv21828578437", "successful")
+ElecBill.display()
+VehicleReg = new Electricbill()
+VehicleReg.set("TN 22 CY 2917", "Sachin", "Sirinivasan", "xxxxxx", "gggggg", "Murugan Vehicles& Services Limited", 5793603,"0G3N72505757", "LMV (CAR)", "Maruthi SuzUKI India LTD",3, 740,2360,5,"Petrol",796)
+
+class Cloth{
+static Book = "The greatness guide"
+constructor()
+{
+this.Brand = "Scott International"
+this.ProductCode = "APPSCOTT-INTERNSWIT610835D77A441"
+this.Color = "Black"
+this.Size = "S"
+this.Material = "Cotton"
+this.Occasion = "Casual"
+this.Pattern = "Solid"
+}
+display()
+{
+this.Sleeve = "Full Sleeves"
+this.NeckType = "Hooded"
+this.Fit = "Slim"
+this.Gender = "Men"
+document.writeln(this.Brand, this.ProductCode,this.Color, this.Size, this.Material, this.Occasion, this.Pattern, this.Sleeve, this.NeckType, this.Fit, this.Gender)
+}
+static Read()
+{
+document.writeln(Cloth.Book)
+}
+}
+let language = new Cloth()
+Cloth.Read ()
+
+function Laptop() 
+{
+model = "LGp430"
+os = "Windows 7 home base, Premium or professional"
+Processor = "Second Generation Intel Core i3,i5 or i7 processor"
+RAM = "upto 8GB"
+Screen = "14.0 inch HD-LCD -backlit"
+Resolution = "1366*768"
+Weight = "4.28 pound"
+Storage = "320GB"
+Graphics = "Intel HD Graphics"
+Networking = "802.11 b/g/n,bluetooth 3.0"
+Batterylife = "6-cell Battery"
+Cost = 50000
+if(Cost <= 50000)
+{
+document.writeln("In budget")
+}
+else
+{
+document.writeln("Out of budget")
+}
+
+document.writeln(model,os,Processor,RAM,Screen,Resolution,Weight,Storage,Graphics,Networking,Batterylife,Cost)
+}
+Laptop()
+
+class Library{
+constructor()
+{
+this.BookID = 12345634
+this.Bookname = "C Programming"
+this.BookAuthor = "Dennis Ritche"
+this.IssueDate = "14/01/2012"
+this.DueDate = "13/02/2012"
+this.IDNo = "2008Ec027"
+this.Name = "Saravanan"
+this.Returnon = "25/02/2012"
+this.Fine = 12
+}
+set (PostofficeDetail,trackingNumber, CounterNo, opcode, Fromaddress,ToAddress, wgt, Amt, dateTime, Taxes, Trackon)
+{
+this.PostofficeDetail = PostofficeDetail
+this.trackingNumber = trackingNumber
+this.CounterNo = CounterNo
+this.opcode = opcode
+this.Fromaddress = Fromaddress
+this.ToAddress = ToAddress
+this.wgt =  wgt
+this.Amt = Amt
+this.dateTime = dateTime
+this.Taxes = Taxes
+this.Trackon = Trackon
+document.writeln(this.PostofficeDetail, this.trackingNumber, this.CounterNo, this.opcode, this.Fromaddress, this.ToAddress, this.wgt, this.Amt, this.dateTime, this.Taxes, this.Trackon)
+}
+display()
+{
+document.writeln(this.BookID,this.Bookname,this.BookAuthor, this.IssueDate, this.DueDate, this.IDNo, this.Name, this.Returnon, this.Fine)
+
+}
+}
+speedpost = new Library()
+speedpost.set("New Thipasundra<423203", "EM423395510IN", 1, 012, "xxxxxx", "xxxxxx", "20grms", "39.00", "08/04/2013 16:01","Rs.4.00","www.indiapost.gov.in")
+
+let ticketdetails = ["100000380284535", 4115023549, "56213 / TIRUPATI PASSR", "14-Dec-2015", "SLEEPERCLASS", "GENERAL"]
+document.writeln(ticketdetails[0], ticketdetails[3])
+document.writeln(ticketdetails)
+
+function Faredetails(Distance,TicketFare, ServiceCharge,TotalFare)
+{
+if(TicketFare >= 500)
+{
+return "Cancellation of ticket"
+}
+else
+{
+document.write(Distance,TicketFare, ServiceCharge, TotalFare)
+}
+}
+var value = Faredetails("323 KM", 600, "Rs. 22.90", 450)
+document.writeln(value)
+
+</script>
+<!-- edit your html here -->

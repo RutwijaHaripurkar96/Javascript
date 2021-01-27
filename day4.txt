@@ -1,0 +1,634 @@
+<script>
+// Edit your script here
+
+//Object Data Structure
+
+let VehicleRegistration = {
+                           RegistrationNumber: "TN 22 CY 2917",
+                           OwnerName : "Sachin",
+                           SWDo: "Sirinivasan",
+                           PermanentAddress:"kkkkkk",
+                           TemporaryAddress:"uuuuuu",
+                           Dealer: "Murugan Vehicles& Services Limited",
+                           ClassisNo : 5793603,
+                           EngineNo: "0G3N72505757" , 
+                           ClassofVehicle: "LMV (CAR)",
+                           makersName: "Maruthi SuzUKI India LTD",
+                           NoofCylinder: 3,
+                           WeightKG : 740,
+                           wheelBase: 2360,
+                           SeatingCapacity: 5,
+                           Fuel : "Petrol",
+                           Cubiccylinder:796
+                           }
+VehicleRegistration.method = function()
+{
+document.writeln(this.RegistrationNumber,this.OwnerName , this.SWDo , this.PermanentAddress , this.TemporaryAddress,this.Dealer,this.ClassisNo,this.EngineNo,this.ClassofVehicle,this.makersName,this.NoofCylinder,this.WeightKG,this.wheelBase,this.SeatingCapacity,this.Fuel,this.Cubiccylinder)
+}
+VehicleRegistration.method()
+
+let library = {
+               	BookID: 12345634,
+              	Bookname: "C Programming",
+			   	BookAuthor: "Dennis Ritche",
+			  	IssueDate: "14/01/2012",
+			  	DueDate: "13/02/2012",
+			   	IDNo: "2008Ec027",
+				Name: "Saravanan",
+				Returnon: "25/02/2012",
+				Fine: 12
+			}
+library.method = function()
+{
+document.writeln(this.BookID,this.Bookname,this.BookAuthor, this.IssueDate, this.DueDate, this.IDNo, this.Name, this.Returnon, this.Fine)
+}
+library.method()
+
+let Ebill = {
+				website:"www.tnebnet.org" ,
+				tnebusername:"agilan",
+				password:1234567,
+				consumernumber:23456123, 
+				Billingstatus:"paid/unpaid",
+				modeofpayment :"netbanking",
+				choosebank:"sbi",
+				username:"kumar007",
+				Transactionno:"18cv21828578437",
+				paymentstatus: "successful"
+			}
+Ebill.method = function()
+{
+document.write(this.website, this.tnebusername,this.password,this.consumernumber,this.Billingstatus,this.modeofpayment,this.choosebank,this.username,this.Transactionno,this.paymentstatus)
+}
+Ebill.method()
+
+let laptop = {
+				model : "LGp430",
+				os : "Windows 7 home base, Premium or professional",
+				Processor : "Second Generation Intel Core i3,i5 or i7 processor",
+				RAM : "upto 8GB",
+				Screen : "14.0 inch HD-LCD -backlit",
+				Resolution : "1366*768",
+				Weight : "4.28 pound",
+				Storage : "320GB",
+				Graphics : "Intel HD Graphics",
+				Networking : "802.11 b/g/n,bluetooth 3.0",
+				Batterylife : "6-cell Battery",
+				Cost : "50,000"
+			}
+laptop.method = function()
+{
+document.writeln(this.model,this.os,this.Processor,this.RAM,this.Screen,this.Resolution,this.Weight,this.Storage,this.Graphics,this.Networking,this.Batterylife,this.Cost)
+}
+laptop.method()
+
+let TV = {
+			Model : " LG55LHX",
+			LEDlighting : " Backlight w/Local Dimming",
+			Sizes : " 55 inches",
+			Typeof240Hz : " scanning Backlight (240 HZ effect)",
+			WirelessHDMI : " yes",
+			USB : " USB 2.0 (pictures, music,videos)",
+			Builtinvideoservice : " youtube",
+			price : 55000,
+		}
+TV.method = function()
+{
+document.writeln(this.Model, this.Sizes, this.Typeof240Hz, this.WirelessHDMI, this.USB, this.Builtinvideosservice, this.price)
+}
+TV.method()
+
+let ticket = {
+				TicketType :" Special Entry Darshan",
+				Date : " Dec 1st",
+				Day : " Tuesday",
+				Time : " 3:30 Am",
+				PerSlotTicket : " 2000",
+				BookingNo : " ISI51110080016",
+				NameofPilgrim : " Venkatesh",
+				OrderNo :  010600013554,
+				Email : " venkateshprofessional17@gmail.com",
+				AmountinFigures : 220.00,
+				ProofofId : " Aadhar Card 733498928758",
+				BookedDateandTime : " 11062015 11:36:46",
+				NoOfPersons :  1,
+				NameoftheSeva : " Archana",
+				ReportingTime : " 4:00 AM",
+				PerformanceDateandTime : " 12012015 AM 4:30:00",
+				PrivilegetotheSeva : " Two small laddus",
+				BookedTime : " 11:36:46",
+				AccomodationType : " Rs 500 Tirumala",
+				Available :  350,
+				NoofTickets :  1,
+				Rate : " 50 to 2000"
+			}
+
+ticket.method = function()
+{
+document.writeln(this.TicketType, this.Date,this.Day, this.Time, this.PerSlotTicket, this.BookingNo, this.NameofPilgrim, this.OrderNo,this.Email, this.AmountinFigures, this.ProofofId, this.BookedDateandTime, this.NoOfPersons, this.NameoftheSeva, this.ReportingTime,this.PerformanceDateandTime, this.PrivilegetotheSeva,this.BookedTime,this.AccomodationType, this.Available, this.NoofTickets, this.Rate)
+}
+ticket.method()
+
+let personalinfo = {
+						NameofPerson : " Mr.Venkatesh",
+						Ageofperson : " 25",
+						Genderofperson : " Male",
+                        EmailAdd : " venkatesh.db@gmail.com",
+						Address : " BEML Main Road",
+						City : " Banglore",
+						State : " Karnataka",
+						Pincode : 560075,
+						Country : " India",
+						MobNo : " 09900367097",
+						PhotoId : " Pasport",
+						PhotoIDNo : " G389975"
+				}
+personalinfo.method = function()
+{
+document.writeln(this.Name, this.Age, this.Gender, this.EmailAddress, this.PhotoIDCard, this.IDCardNo, this.NameofPerson, this.Ageofperson, this.Genderofperson, this.EmailAdd, this.Address, this.City, this.State, this.Pincode, this.Country, this.MobNo, this.PhotoId, this.PhotoIDNo)
+}
+personalinfo.method()
+
+let Eduinfo = {
+				Name : "Jai Venkateswara Technologies",
+				EducationalQualification : "B TECH MCA MBA BSC MSC",
+				DateOfBirth : "2/6/1988",
+				CommunicationAddress : "233/3 Ground floor new thippasandra",
+				ResidenceNumber : 08025216666,
+				Mobile : 9900367097,
+				Email : "venkatesh.db@gmail.com",
+				TotalITExp : "1 years",
+				SkillandRelevantExperience : "C,CPP all Lang & 1 years",
+				ReportingManagers : "Venkatesh",
+				PancardNo : "asu675901f"
+  			}		
+
+Eduinfo.method = function()
+{
+document.writeln(this.Name, this.EducationalQualification, this.DateOfBirth, this.CommunicationAddress,this.ResidenceNumber, this.Mobile, this.Email ,this.TotalITExp, this.SkillandRelevantExperience, this.ReportingManagers, this.PancardNo)
+}
+Eduinfo.method()
+
+let software = {
+					OS : "iOS 9, upgradable to iOS 9.2",
+					Chipset : "Apple A9",
+					CPU :"Dual-core 1.84 GHz Twister",
+					GPU : "PowerVR GT7600 (six-core graphics)",
+					Model : "iphone",
+					Manufactuer: "Apple",
+					Os : "ios 4.0",
+					Processor: "1 GHZ",
+					RAMMemory: "512Mb",
+					Keyboard: "Software",
+					onboardstorage: "16GB/32Gb",
+					Flash : "LED",
+					VideoCallcamera: "VGA",
+					VideoRecording: "720 F",
+					NoiceCancelling: "2 microphones",
+					Expandablestorage: "No"
+				}
+
+software.method = function()
+{
+document.writeln(this.OS ,this.Chipset,this.CPU,this.GPU,this.Model,this.Manufactuer,this.Processor,this.RAMMemory,this.Keyboard,this.onboardstorage,this.Flash,this.VideoCallcamera,this.NoiceCancelling,this.Expandablestorage)
+}
+software.method()
+
+let driverlic = {
+					Lastname: "kumar",
+					Firstname: "Pavan",
+					Middlename:"Bijjavaram",
+					Driverslicensenumber:"ka50201500006939",
+					Driverslicensestate:"karnataka",
+					Driverslicensecountry:"india", 
+					Civiliantype: "around india", 
+					Employeetype:"software engineer",
+					Dateofbirth:"12-07-1992",
+					Cityofbirth:"rajampet"
+				}
+driverlic.method = function()
+{
+document.writeln(this.Lastname,this.Firstname,this.Middlename,this.Driverslicensenumber,this.Driverslicensestate,this.Driverslicensecountry,this.Civiliantype,this.Employeetype,this.Dateofbirth,this.Cityofbirth)
+}
+driverlic.method()
+
+let cardet = {
+				CITY :"Kolkata",
+				FUELTYPE :"Petrol",
+				KMSDriven :"29,479 KM",
+				COLOUR :"Brown",
+				NUMBEROFOWNERS :1,
+				POWERSTEERING :"Yes",
+				INSURANCETYPE :"Expired",
+				INSURANCEEXPIRY: "N/A",
+				MANUFACTURINGYEAR :"2012",
+				DATEOFREGISTRATION :"25-May-2012",
+				REGISTRATIONTYPE :"Individual",
+				RTOLOCATION :"beltala"
+			}
+cardet.method = function()
+{
+document.writeln(this.CITY,this.FUELTYPE,this.KMSDriven,this.COLOUR,this.NUMBEROFOWNERS,this.POWERSTEERING,this.INSURANCETYPE,this.INSURANCEEXPIRY,this.MANUFACTURINGYEAR,this. DATEOFREGISTRATION,this.REGISTRATIONTYPE,this.RTOLOCATION)
+}
+cardet.method()
+
+let aroma = {
+				Brand : "Concept",
+				ProductCode : "AUTCOMBO-OF- CONVIVA67682242A608C",
+				ProductWeight : "150gm",
+				InTheBox : "Pack Of 2 Perfumes",
+				Quantity : "70 ml each",
+				EffectivePrice : "Rs 194 after cashback"
+			}
+aroma.method = function()
+{
+document.writeln(this.Brand, this.ProductCode, this.ProductWeight, this.InTheBox,this.Quantity,this.EffectivePrice)
+}
+aroma.method()
+
+let Fashion = {
+				Brand : " Scott International",
+				ProductCode : " APPSCOTT-INTERNSWIT610835D77A44",
+				Colour : " Black",
+				Size : " S",
+				Material : " Cotton",
+				Occasion : " Casual",
+				Pattern : " Solid",
+				Sleeve : " Full Sleeves",
+				NeckType : " Hooded",
+				Fit : " Slim",
+				Gender : " Men"
+
+			}
+Fashion.method = function()
+{
+document.writeln(this.Brand, this.ProductCode, this.Colour, this.Size, this.Material, this.Occasion, this.Pattern, this.Sleeve, this.NeckType, this.Fit, this.Gender)
+}
+Fashion.method()
+
+let System = {
+				Rating : "4.5",
+				Processor : "Intel® Core™ i5-2450 CPU",
+				InstalledMemory: "4.00GB",
+				SystemType : "64-bit Operating System",
+				PenandTouch : "No Pen or Touch Input is available for this Display",
+				ComputerName : "BALU-PC",
+				ComputerDescription : "WORKGROUP",
+				WindowsEdition : "Windows 7 Ultimate",
+				WindowsProductID : "00426-OEM-8992662-00497"
+			}
+
+System.method = function()
+{
+document.writeln(this.Rating, this.Processor, this.InstalledMemory, this.SystemType, this.PenandTouch, this.ComputerName, this.ComputerDescription, this.WindowsEdition, this.WindowsProductID)
+}
+System.method()
+
+let movie = {
+				Theatrename: "PSS multiplex",
+				Screen : "screen 3",
+				moviename : "JVT [ C,CPP]",
+				moviecertification : "U ",
+				class : "first", 
+				priceperticket : "Rs.1050.00", 
+				Numberoftickets : 5,
+				seatnumbers :"c1,c2,c3,c4,c5", 
+				Totalamount :"Rs.750.00"
+			}
+movie.method = function()
+{
+document.writeln(this.Theatrename, this.Screen , this.moviename, this.moviecertification, this.class,this.priceperticket , this.Numberoftickets,this.seatnumbers ,this.Totalamount)
+}
+movie.method()
+
+let Google = {
+				FirstName : "venkatesh",
+				LastName : "d b",
+				ChooseUsername : "jvt",
+				CreataPassword : "balu",
+				ConfirmYourPassword : "balu",
+				Birthday :"2-6-1986",
+				Gender : "male",
+				Mobile : 9900367097,
+				Yourcurrentemailaddress : "venkatesh.db@gmail.com"
+			}
+Google.method = function()
+{
+document.writeln(this.FirstName, this.LastName , this.ChooseUsername, this.CreataPassword, this.ConfirmYourPassword,this.Birthday, this.Gender,this.Mobile ,this.Yourcurrentemailaddress)
+}
+Google.method()
+
+let SbiBank = {
+				BankName : "SBI Bank",
+				Date: "29/05/14",
+				Time: "19:48",
+				ATMNo : "SJNBL48",
+				CARDNo: "xxxx xxxxx xxxx 0516",
+				BRANCHNAME: "Bangalore Main Branch",
+				TxnNo :2907,
+				Responsecode : "072",
+				WithDrawl : "500.00",
+				FromAC : "xxxxxxxxxx05 xx01",
+				ModRS : "0.00",
+				AvailableBalRs: "1000.00",
+				Website : "www.statebankof india.com"
+			}
+SbiBank.method = function()
+{
+document.writeln(this.BankName, this.Date, this.Time, this.ATMNo, this.CARDNo,this.BRANCHNAME, this.TxnNo,this.Responsecode,this.WithDrawl, this.FromAC, this.ModRS,this.AvailableBalRs,this.Website)
+}
+SbiBank.method()
+
+let compupsSpecifns = {
+						model:"exide-digital600",
+						ipvoltage: "230v ac",
+						frequency:"50hz",
+						opvoltage:"230v ac",
+						batterytype:"sealed maintenance free",
+						batterycapacity:"12volt 7Ah",
+						batterybackup:"12 to 20 mints",
+						rechargetime:"5 to 6 hours",
+						weight:"6.1 kg"
+					}
+compupsSpecifns.method = function()
+{
+document.writeln(this.model, this.ipvoltage, this.frequency, this.opvoltage, this.batterytype,this.batterycapacity, this.batterybackup,this.rechargetime,this.weight)
+}
+compupsSpecifns.method()
+
+let visitcarddetails = {
+							name:"naresh",
+							mailid:"naresh.jvt@gmail.com",
+							contactno:"+91 9944860792",
+							companyname:"jvt",
+							designation:"programmer", 
+							address: "230/3 2nd floor hal3rd stage new thippasandra bangalore-560075"
+						}
+visitcarddetails.method = function()
+{
+document.writeln(this.name, this.mailid, this.contactno, this.companyname, this.designation,this.address)
+}
+visitcarddetails.method()
+
+let Travelbusticket = {
+							Transportdetails: "Tamilnadu State Transport Corporation Limited",
+							BusDepoName: "Kanchipuram/01",
+							TicketNumber: 00086655,
+							Dateandtime: "06/11/2014 14:58:47",
+							From: "Chennai",
+							To: "pondichery",
+							Qty : 2,
+							cost: "33.00",
+							Total:"33.00",
+							BusNo: "TN 01 N 2454"
+					}
+
+Travelbusticket.method = function()
+{
+document.writeln(this.Transportdetails, this.BusDepoName, this.TicketNumber, this.Dateandtime, this.From,this.To, this.Qty,this.cost,this.Total,this.BusNo)
+}
+Travelbusticket.method()
+
+let LICPolicy  = {
+						BranchCode: 309,
+						Date: "07/11/2013-12:51",
+						AddressofBranchoffice:"xxxxxxx",
+						Totalcost: "6713.00",
+						mrorMrs: "saravanan",
+						PolicyNo: 364164915,
+						Doc:"02/04/2009",
+						DueDate:"04/13",
+						Premiumamount : "6426.00",
+						LateFee: "287.20",
+						Loaninterest: "Due 00/0000 to 00/0000",
+						TotalRs: "6713.20",
+						NextDue: "04/2014"
+				}
+
+LICPolicy.method = function()
+{
+document.writeln(this.BranchCode, this.Date, this.AddressofBranchoffice, this.Totalcost, this.mrorMrs,this.PolicyNo, this.Doc,this.DueDate,this.Premiumamount,this.LateFee,this.Loaninterest,this.TotalRs,this.NextDue)
+}
+LICPolicy.method()
+
+let PersonalDetails = {
+							Name : "Naga Lalitha Kumari Bezawada",
+							Dob :"18-02-1989",
+							TimeOfBirth :"7.30-8PM",
+							PlaceOfBirth : "Samalkota",
+							Nativity : "Rajahmundry",
+							MartialStatus : "UnMarried",
+							Religion : "Hindu",
+							Community : "Telugu",
+							Caste : "Balija",
+							SubSect : "Krishna Balija",
+							MotherTongue :"Telugu",
+							Gothram : "Mathala",
+							Star :"Pushyami 3,4P",
+							Height : "5'1'",
+							Complexion :"Medium",
+							Qualification :"B.Tech(CS)",
+							University : "KIET,Kakinada",
+							BloodGroup : "B+ve"
+						}
+PersonalDetails.method = function()
+{
+document.writeln(this.Name, this.Dob, this.TimeOfBirth, this.PlaceOfBirth, this.Nativity,this.MartialStatus, this.Religion,this.Community,this.Caste,this.SubSect,this.MotherTongue,this.Gothram,this.Star,this.Height,this.Complexion,this.Qualification,this.University,this.BloodGroup)
+}
+PersonalDetails.method()
+
+//Array Data Structure
+
+let LIC = [ 309,"07/11/2013-12:51","xxxxxxx","6713.00","saravanan",364164915,"02/04/2009","04/13","6426.00","287.20","Due 00/0000 to 00/0000","6713.20","04/2014"]
+document.writeln(LIC[2])
+document.writeln(LIC)
+
+let Travel = ["Tamilnadu State Transport Corporation Limited","Kanchipuram/01",00086655,"06/11/2014 14:58:47","Chennai", "pondichery",2,"33.00","33.00","TN 01 N 2454"]
+document.writeln(Travel[5])
+document.writeln(Travel)
+
+let cardetails = ["naresh","naresh.jvt@gmail.com","+91 9944860792","jvt","programmer", "230/3 2nd floor hal3rd stage new thippasandra bangalore-560075" ]
+document.writeln(cardetails[4])
+document.writeln(cardetails)
+
+let compspecifns = ["exide-digital600", "230v ac","50hz","230v ac","sealed maintenance free","12volt 7Ah","12 to 20 mints","5 to 6 hours","6.1 kg"]
+document.writeln(compspecifns[3])
+document.writeln(compspecifns)
+
+let googleinfo = ["venkatesh","d b", "jvt","balu","balu","2-6-1986","male",9900367097,"venkatesh.db@gmail.com"]
+document.writeln(googleinfo[1])
+document.writeln( googleinfo)
+
+let Moviestic = ["PSS multiplex","screen 3", "JVT [ C,CPP]","U ","first","Rs.1050.00",5,"c1,c2,c3,c4,c5", "Rs.750.00" ]
+document.writeln(Moviestic[2])
+document.writeln( Moviestic)
+
+let Television = [" LG55LHX"," Backlight w/Local Dimming"," 55 inches","yes", " scanning Backlight (240 HZ effect)"," youtube",55000]
+document.writeln(Television[0])
+document.writeln( Television)
+
+let systeminfo = ["4.5","Intel® Core™ i5-2450 CPU", "4.00GB","64-bit Operating System", "No Pen or Touch Input is available for this Display","BALU-PC","WORKGROUP","Windows 7 Ultimate", "00426-OEM-8992662-00497"]
+document.writeln(systeminfo[6])
+document.writeln( systeminfo)
+
+let corporateinfo = ["JVT", "Programmer","2.3 or 230000","Bangalore"]
+document.writeln(corporateinfo[2])
+document.writeln( corporateinfo)
+
+let netdata = [1135497,11128550,"10.245.97.123"] 
+document.writeln(netdata[0])
+document.writeln(netdata)
+
+let creditcard  = [6146496758938152, "571.36", "272.36"]
+document.writeln(creditcard[2])
+document.writeln(creditcard)
+
+let Body = ["138.3 x 67.1 x 7.1 mm (5.44 x 2.64 x 0.28 in)", "143 g (5.04 oz)","Nano-SIM"]
+document.writeln(Body[1])
+document.writeln(Body)
+
+let Drive = ["C", "Local Disk", "97.5 GB", "59.2 GB"]
+document.writeln(Drive[4])
+document.writeln(Drive)
+
+let airtel = [9845042214, 1025489139,969648942,"17-Dec-2012 to 16-jan-2015"]
+document.writeln(airtel[3])
+document.writeln(airtel)
+
+arr= ["Concept","AUTCOMBO-OF- CONVIVA67682242A608C", "150gm","Pack Of 2 Perfumes","70 ml each","Rs 194 after cashback"]
+document.writeln(arr)
+
+//Map Array Data Structure
+
+let arr1 = new Map()
+arr1.set("c", 1)
+document.writeln(arr1.get("c"))
+
+let Scent = new Map()
+
+ Scent.set("Brand","Concept")
+ Scent.set("ProductCode","AUTCOMBO-OF- CONVIVA67682242A608C")
+ Scent.set("ProductWeight", "150mg")
+ Scent.set("Inthebox","Pack Of 2 Perfumes")
+ Scent.set("Quantity","70 ml each")
+ Scent.set("EffectivePrice", "Rs 194 after cashback")
+
+document.writeln( Scent.get("Brand"))
+document.writeln( Scent.get("ProductCode"))
+document.writeln( Scent.get("ProductWeight"))
+document.writeln( Scent.get("Inthebox"))
+document.writeln( Scent.get("Quantity"))
+document.writeln( Scent.get("EffectivePrice"))
+
+let Driver_License = new Map()
+Driver_License.set("LastName", "Kumar")
+Driver_License.set("FirstName", "Pavan")
+Driver_License.set("MiddleName","Bijjavaram")
+Driver_License.set("Driverlicensenumber","ka50201500006939")
+Driver_License.set("Driverlicensestate","karnataka")
+Driver_License.set("Driverlicensecountry","india")
+Driver_License.set("Civiliantype","around india")
+Driver_License.set("Employeetype","software engineer")
+Driver_License.set("Dateofbirth","12-07-1992")
+Driver_License.set("Placeofbirth","rajampet")
+
+document.writeln(Driver_License.get("LastName"))
+document.writeln(Driver_License.get("FirstName"))
+document.writeln(Driver_License.get("MiddleName"))
+document.writeln(Driver_License.get("Driverlicensenumber"))
+document.writeln(Driver_License.get("Driverlicensestate"))
+document.writeln(Driver_License.get("Driverlicensecountry"))
+document.writeln(Driver_License.get("Civiliantype"))
+document.writeln(Driver_License.get("Employeetype"))
+document.writeln(Driver_License.get("Dateofbirth"))
+document.writeln(Driver_License.get("Placeofbirth"))
+
+let Personal_info= new Map()
+
+ Personal_info.set("Name", "Naga Lalitha Kumari Bezawada")
+ Personal_info.set("Dob", "18-02-1989")
+ Personal_info.set("TimeOfBirth", "7.30-8PM")
+ Personal_info.set("PlaceOfBirth", "Samalkota")
+ Personal_info.set("Nativity", "Rajahmundry")
+ Personal_info.set("MartialStatus", "Unmarried")
+ Personal_info.set("Religion", "Hindu")
+ Personal_info.set("Community", "Telugu")
+ Personal_info.set("Caste", "Balija")
+ Personal_info.set("SubSect", "Krishna Balija")
+ Personal_info.set("MotherTongue", "Telugu")
+ Personal_info.set("Gothram", "Mathala")
+ Personal_info.set("Star", "Pushyami 3, 4P")
+ Personal_info.set("Height","5'1")
+ Personal_info.set("Complexion","Medium")
+ Personal_info.set("Qualification","BTech (CS)")
+ Personal_info.set("University","KEIT, Kakinda")
+ Personal_info.set("BloodGroup","B+ve")
+
+document.writeln( Personal_info.get("Name"))
+document.writeln( Personal_info.get("Dob"))
+document.writeln( Personal_info.get("TimeOfBirth"))
+document.writeln( Personal_info.get("PlaceOfBirth"))
+document.writeln( Personal_info.get("Nativity"))
+document.writeln( Personal_info.get("MartialStatus"))
+document.writeln( Personal_info.get("Religion"))
+document.writeln( Personal_info.get("Community"))
+document.writeln( Personal_info.get("Caste"))
+document.writeln(Personal_info.get("SubSect"))
+document.writeln(Personal_info.get("MotherTongue"))
+document.writeln(Personal_info.get("Gothram"))
+document.writeln(Personal_info.get("Star"))
+document.writeln(Personal_info.get("Height"))
+document.writeln(Personal_info.get("Complexion"))
+document.writeln(Personal_info.get("Qualification"))
+document.writeln(Personal_info.get("University"))
+document.writeln(Personal_info.get("BloodGroup"))
+
+let Bank_Details = new Map()
+
+Bank_Details.set("Bank_Name " ,"SBI Bank ")
+Bank_Details.set("Date_b ", " 29/05/14 ")
+Bank_Details.set("Time_b "," 19:48 ")
+Bank_Details.set("ATM_No "," SJNBL48 ")
+Bank_Details.set("Card_No "," xxxxxxxxxxxxx0516 ")
+Bank_Details.set("Branch_Name "," Banglore Maiin Branch ")
+Bank_Details.set("Txn_No "," 2907 ")
+Bank_Details.set("Response_code "," 072 ")
+Bank_Details.set("Withdrawl_b ","500.00")
+Bank_Details.set("From_Ac ","  xxxxxxxxxx05xx01")
+Bank_Details.set("Mod_Rs "," 0.00 ")
+Bank_Details.set(" Available_Bal_Rs"," 1000.00 ")
+Bank_Details.set("web_site"," www.statebankof india.com ")
+
+document.writeln(Bank_Details.get("Bank_Name"))
+document.writeln(Bank_Details.get("Date_b"))
+document.writeln(Bank_Details.get("Time_b "))
+document.writeln(Bank_Details.get("ATM_No "))
+document.writeln(Bank_Details.get(" Card_No"))
+document.writeln(Bank_Details.get("Branch_Name"))
+document.writeln(Bank_Details.get("Txn_No"))
+document.writeln(Bank_Details.get("Response_code "))
+document.writeln(Bank_Details.get("Withdrawl_b "))
+document.writeln(Bank_Details.get("From_Ac "))
+document.writeln(Bank_Details.get(" Mod_Rs"))
+document.writeln(Bank_Details.get("Available_Bal_Rs "))
+document.writeln(Bank_Details.get(" web_site"))
+
+Blood_test = [
+            {test:"WBC",result:"4.4", flag:"low",  units: "X10E3/U", Referanceinterval:"4.0-10.5", LAB:01},
+            {test:"RBC",result:"4.05", flag:"low",  units: "X10E6/UL", Referanceinterval:"4.10-10.5.60", LAB:01},
+            {test:"Heamoglobin",result:"14.83", flag:"low",  units: "g/dl", Referanceinterval:"12.5-17.0", LAB:01},
+            {test:"Hematocrit",result:"41.8", flag:"low",  units: "%", Referanceinterval:"36.0-50.0", LAB:01},
+            {test:"MCV",result:"86", flag:"low",  units: "FI", Referanceinterval:"80-98", LAB:01},
+            {test:"MCH",result:"30.9", flag:"low",  units: "Pg", Referanceinterval:"27.0-34.0", LAB:01},
+            ]
+Blood_test.map(get_healthcare) 
+
+function get_healthcare(component)
+{
+document.writeln(component.test,component.result,component.flag,component.units, component. Referanceinterval, component.LAB)
+}
+ 
+ 
+            
+</script>
+<!-- edit your html here -->

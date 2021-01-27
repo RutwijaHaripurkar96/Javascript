@@ -1,0 +1,123 @@
+<script>
+// Edit your script here
+class corporate{
+constructor()
+{
+this.Companyname = "JVT"
+this.Designation = "Programmer"
+this.Salary = "2.3 or 230000"
+this.Location = "Bangalore"
+document.writeln(this.Companyname,this.Designation,this.Salary,this.Location)
+}
+}
+let info = new corporate()
+
+class Educationinfo {
+constructor(Name ,EducationalQualification,DateOfBirth,CommunicationAddress,ResidenceNumber,Mobile, Email,TotalITExp,SkillandRelevantExperience,ReportingManager,PANCARDNO)
+{
+this.Name = Name 
+this.EducationalQualification = EducationalQualification
+this.DateOfBirth = DateOfBirth
+this.CommunicationAddress = CommunicationAddress
+this.ResidenceNumber = ResidenceNumber
+this.Mobile = Mobile 
+this.Email = Email
+this.TotalITExp = TotalITExp
+this.SkillandRelevantExperience =SkillandRelevantExperience
+this.ReportingManager =ReportingManager
+this.PANCARDNO = PANCARDNO
+document.writeln(this.Name,this.EducationalQualification ,this.DateOfBirth,this.CommunicationAddress,this.ResidenceNumber ,this.Mobile,this.Email ,this.TotalITExp,this.SkillandRelevantExperience,this.ReportingManager,this.PANCARDNO)
+}
+}
+new Educationinfo("Jai Venkateswara Technologies"," B TECH MCA MBA BSC MSC","2/6/1988","233/3 Ground floor new thippasandra",08025216666, 9900367097,"venkatesh.db@gmail.com","1 years","C,CPP all Lang & 1 years","Venkatesh","asu675901f")
+
+class account{
+constructor(AccountNo,BroadbandUserID ,IPAddress)
+{
+this.AccountNo = AccountNo
+this.BroadbandUserID = BroadbandUserID 
+this.IPAddress = IPAddress
+document.writeln(this.AccountNo,this.BroadbandUserID,this.IPAddress)
+}
+}
+new account(1135497,11128550,"10.245.97.123")
+
+class Watch{
+constructor(ItemCode,Price, Type, Case, Dial, Strap, ClassType, Occasion,Movement,Others)
+{
+this.ItemCode = ItemCode
+this.Price = Price
+this.Type = Type
+this.Case = Case
+this.Dial = Dial
+this.Strap = Strap
+this.ClassType = ClassType
+this.Occasion = Occasion
+this.Movement = Movement
+this.Others = Others
+document.writeln(this.ItemCode,this.Price,this.Type,this.Case,this.Dial,this.Strap,this.ClassType,this.Occasion,this.Movement,this.Others)
+}
+}
+new Watch(131843, "Rs 349", "Analog Watch", "Fibre Case with Steel Back", "Round Dial", "Fibre", "Buckle", "Casual","PC21 Movement","One Year Warranty")
+
+class Engine{
+constructor(RegistrationNumber, OwnerName,SWDo,PermanentAddress,TemporaryAddress,Dealer,ClassisNo,EngineNo,makersName,NoofCylinder,WeightKG,wheelBase,SeatingCapacity,Fuel,Cubiccylinder)
+{
+this.RegistrationNumber = RegistrationNumber
+this.OwnerName = OwnerName
+this.SWDo = SWDo
+this.PermanentAddress = PermanentAddress
+this.TemporaryAddress = TemporaryAddress
+this.Dealer = Dealer
+this.ClassisNo =ClassisNo
+this.EngineNo = EngineNo
+this.makersName = makersName
+this.NoofCylinder = NoofCylinder
+this.WeightKG = WeightKG
+this.wheelBase = wheelBase
+this.SeatingCapacity = SeatingCapacity
+this.Fuel = Fuel
+this.Cubiccylinder = Cubiccylinder
+document.writeln(this.RegistrationNumber, this.OwnerName, this.SWDo, this.PermanentAddress, this.TemporaryAddress, this.Dealer, this.ClassisNo, this.EngineNo, this.makersName, this.NoofCylinder, this.WeightKG,this.wheelBase,this.SeatingCapacity,this.Fuel,this.Cubiccylinder)
+}
+}
+new Engine("TN 22 CY 2917", "Sachin", "Sirinivasan", "xxxxxx", "gggggg", "Murugan Vehicles& Services Limited", 5793603,"0G3N72505757", "LMV (CAR)", "Maruthi SuzUKI India LTD",3, 740,2360,5,"Petrol",796)
+
+class License{
+constructor(Lastname,Firstname,Middlename,Driverslicensenumber,Driverslicensestate,Driverslicensecountry,Civiliantype,Employeetype,Dateofbirth,Cityofbirth)
+{
+this.Lastname = Lastname
+this.Firstname = Firstname
+this.Middlename = Middlename
+this.Driverslicensenumber = Driverslicensenumber
+this.Driverslicensestate = Driverslicensestate
+this.Driverslicensecountry = Driverslicensecountry
+this.Civiliantype = Civiliantype
+this.Employeetype = Employeetype
+this.Dateofbirth = Dateofbirth
+this.Cityofbirth = Cityofbirth
+document.writeln(this.Lastname,this.Firstname,this.Middlename,this.Driverslicensenumber,this.Driverslicensestate,this.Driverslicensecountry,this.Civiliantype,this.Employeetype,this.Dateofbirth,this.Cityofbirth)
+}
+}
+new License("kumar", "Pavan", "Bijjavaram", "ka50201500006939", "karnataka", "india", "around india", "software engineer", "12-07-1992", "rajampet")
+
+class Postoffice{
+constructor(PostofficeDetail,trackingNumber, CounterNo, opcode, Fromaddress,ToAddress, wgt, Amt, dateTime, Taxes, Trackon)
+{
+this.PostofficeDetail = PostofficeDetail
+this.trackingNumber = trackingNumber
+this.CounterNo = CounterNo
+this.opcode = opcode
+this.Fromaddress = Fromaddress
+this.ToAddress = ToAddress
+this.wgt =  wgt
+this.Amt = Amt
+this.dateTime = dateTime
+this.Taxes = Taxes
+this.Trackon = Trackon
+document.writeln(this.PostofficeDetail, this.trackingNumber, this.CounterNo, this.opcode, this.Fromaddress, this.ToAddress, this.wgt, this.Amt, this.dateTime, this.Taxes, this.Trackon)
+}
+}
+new Postoffice("New Thipasundra<423203", "EM423395510IN", 1, 012, "xxxxxx", "xxxxxx", "20grms", "39.00", "08/04/2013 16:01","Rs.4.00","www.indiapost.gov.in")
+</script>
+<!-- edit your html here -->

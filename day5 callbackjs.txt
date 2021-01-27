@@ -1,0 +1,124 @@
+<script>
+// Edit your script here
+function Watch( ItemCode,Price, Type, Case, Dial, Strap, ClassType, Occasion)
+{
+document.writeln( ItemCode,Price, Type, Case, Dial, Strap, ClassType, Occasion)
+}
+function Watch_time(callback)
+{
+callback(131843, "Rs 349", "Analog Watch", "Fibre Case with Steel Back", "Round Dial", "Fibre", "Buckle", "Casual")
+}
+Watch_time(Watch)
+
+
+function netusage(TotalMBdownloaded, MobiledownloadSpeed, MobileuploadSpeed)
+{
+document.writeln(TotalMBdownloaded, MobiledownloadSpeed, MobileuploadSpeed)
+}
+function Net_use(callback)
+{
+callback(50, "30.05 mbps","32.06 mbps")
+}
+Net_use(netusage)
+
+
+function CarDetails(CITY, FUELTYPE, KMSDriven, COLOUR, NUMBEROFOWNERS, POWERSTEERING, INSURANCETYPE, INSURANCEEXPIRY, MANUFACTURINGYEAR, DATEOFREGISTRATION, REGISTRATIONTYPE, RTOLOCATION)
+{
+document.writeln(CITY, FUELTYPE, KMSDriven, COLOUR, NUMBEROFOWNERS, POWERSTEERING, INSURANCETYPE, INSURANCEEXPIRY, MANUFACTURINGYEAR, DATEOFREGISTRATION, REGISTRATIONTYPE, RTOLOCATION)
+}
+function Car(callback)
+{
+callback("Kolkata", "Petrol", "29,479 KM", "Brown", 1, "Yes", "Expired", "N/A", 2012 ,"25-May-2012", "Individual", "beltala")
+}
+Car(CarDetails)
+
+
+function Computerfeatures(OS,Chipset,CPU,GPU,Model,Manufactuer,Processor,RAMMemory,Keyboard,onboardstorage,Flash,VideoCallcamera,VideoRecording,NoiceCancelling,Expandablestorage)
+{
+document.writeln(OS,Chipset,CPU,GPU,Model,Manufactuer,Processor,RAMMemory,Keyboard,onboardstorage,Flash,VideoCallcamera,VideoRecording,NoiceCancelling,Expandablestorage)
+}
+function Computer(callback)
+{
+callback("iOS 9, upgradable to iOS 9.2", "Apple A9", "Dual-core 1.84 GHz Twister", "PowerVR GT7600 (six-core graphics)", "iphone", "Apple", "1 GHZ", "512Mb", "Software", "16GB/32Gb", "LED", "VGA", "720 F", "2 microphones", "No")
+}
+Computer(Computerfeatures)
+
+
+function Electricity(website,tnebusername,password,consumernumber,Billingstatus,modeofpayment,choosebank,username,Transactionno, paymentstatus)
+{
+document.writeln(website,tnebusername,password,consumernumber,Billingstatus,modeofpayment,choosebank,username,Transactionno, paymentstatus)
+}
+function Elec(callback)
+{
+callback("www.tnebnet.org", "agilan", 1234567, 23456123, "paid/unpaid", "netbanking", "sbi", "kumar007", "18cv21828578437", "successful")
+}
+Elec(Electricity)
+
+
+function Postoffice(PostofficeDetail,trackingNumber, CounterNo, opcode, Fromaddress,ToAddress, wgt, Amt, dateTime, Taxes, Trackon)
+{
+document.writeln(PostofficeDetail,trackingNumber, CounterNo, opcode, Fromaddress,ToAddress, wgt, Amt, dateTime, Taxes, Trackon)
+}
+function Post(callback)
+{
+callback("New Thipasundra<423203", "EM423395510IN", 1, 012, "xxxxxx", "xxxxxx", "20grms", "39.00", "08/04/2013 16:01","Rs.4.00","www.indiapost.gov.in")
+}
+Post(Postoffice)
+
+
+function Faredetails(Distance,TicketFare, ServiceCharge,TotalFare)
+{
+document.writeln(Distance,TicketFare, ServiceCharge,TotalFare)
+}
+function Fare(callback)
+{
+callback("323 KM", "Rs. 420.00", "Rs. 22.90", 420)
+}
+Fare(Faredetails)
+
+
+function Biodata(Name,Dob,TimeOfBirth,PlaceOfBirth,Nativity,MartialStatus,Religion,Community,Caste,SubSect,MotherTongue,Gothram,Star,Height,Complexion,Qualification,University,BloodGroup)
+{
+document.writeln(Name,Dob,TimeOfBirth,PlaceOfBirth,Nativity,MartialStatus,Religion,Community,Caste,SubSect,MotherTongue,Gothram,Star,Height,Complexion,Qualification,University,BloodGroup)
+}
+function Bio(callback)
+{
+callback("Naga Lalitha Kumari Bezawada","18-02-1989","7.30-8PM","Samalkota","Rajahmundry","UnMarried","Hindu","Telugu","Balija","Krishna Balija","Telugu","Mathala","Pushyami 3,4P","5'1'","Medium","B.Tech(CS)","KIET,Kakinada","B+ve")
+}
+Bio(Biodata)
+
+
+function License(Lastname,Firstname,Middlename,Driverslicensenumber,Driverslicensestate,Driverslicensecountry,Civiliantype,Employeetype,Dateofbirth,Cityofbirth)
+{
+document.writeln(Lastname,Firstname,Middlename,Driverslicensenumber,Driverslicensestate,Driverslicensecountry,Civiliantype,Employeetype,Dateofbirth,Cityofbirth)
+}
+function Drive(callback)
+{
+callback("kumar", "Pavan", "Bijjavaram", "ka50201500006939", "karnataka", "india", "around india", "software engineer", "12-07-1992", "rajampet")
+}
+Drive(License)
+
+
+function Engine(RegistrationNumber, OwnerName,SWDo,PermanentAddress,TemporaryAddress,Dealer,ClassisNo,EngineNo,makersName,NoofCylinder,WeightKG,wheelBase,SeatingCapacity,Fuel,Cubiccylinder)
+{
+document.writeln(RegistrationNumber, OwnerName,SWDo,PermanentAddress,TemporaryAddress,Dealer,ClassisNo,EngineNo,makersName,NoofCylinder,WeightKG,wheelBase,SeatingCapacity,Fuel,Cubiccylinder)
+}
+function Motor(callback)
+{
+callback("TN 22 CY 2917", "Sachin", "Sirinivasan", "xxxxxx", "gggggg", "Murugan Vehicles& Services Limited", 5793603,"0G3N72505757", "LMV (CAR)", "Maruthi SuzUKI India LTD",3, 740,2360,5,"Petrol",796)
+}
+Motor(Engine)
+
+
+function broadband(AccountNo,BroadbandUserID ,IPAddress)
+{
+document.writeln(AccountNo,BroadbandUserID ,IPAddress)
+}
+function Net(callback)
+{
+callback(1135497,11128550,"10.245.97.123")
+}
+Net(broadband)
+
+</script>
+<!-- edit your html here -->
